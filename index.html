@@ -1,0 +1,2170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coca-Cola Zero Sugar | Best Served Ice Cold | Try It Today</title>
+  <meta name="description" content="Experience the iconic Coca-Cola flavor with Zero Sugar and Zero Calories. Claim your exclusive Meta Ads sample voucher today and taste the refreshing difference." />
+  <meta name="keywords" content="Coca-Cola Zero Sugar, Coke Zero, Zero Sugar Cola, Free Sample, Meta Ads Promo, Refreshing Beverage" />
+  
+  <!-- Open Graph / Meta Ads Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Real Taste. Zero Sugar. Try Coca-Cola Zero Today." />
+  <meta property="og:description" content="Iconic Coca-Cola flavor with 0 calories. Claim your limited-time digital coupon now!" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- =========================================================================
+       META PIXEL & THIRD-PARTY TRACKING SCRIPTS (RESERVED SECTION)
+       Replace YOUR_META_PIXEL_ID with your active Meta Ads Pixel Identifier
+       ========================================================================= -->
+  <script id="meta-pixel-script">
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    // Initialize Pixel ID and track PageView
+    fbq('init', 'YOUR_META_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=YOUR_META_PIXEL_ID&ev=PageView&noscript=1"
+      alt="Meta Pixel Tracking" />
+  </noscript>
+  <!-- =========================================================================
+       END META PIXEL RESERVED SECTION
+       ========================================================================= -->
+
+  <!-- =========================================================================
+       INLINE STYLESHEET - SELF-CONTAINED DESIGN SYSTEM
+       ========================================================================= -->
+  <style>
+    /* --------------------------------------------------------------------------
+       1. CSS CUSTOM PROPERTIES & DESIGN TOKENS
+       -------------------------------------------------------------------------- */
+    :root {
+      /* Brand Colors */
+      --coke-red: #E41E2B;
+      --coke-red-hover: #F42837;
+      --coke-red-dark: #A80C17;
+      --coke-black: #0B0B0D;
+      --coke-black-light: #141419;
+      --coke-black-card: rgba(22, 22, 28, 0.75);
+      --coke-white: #FFFFFF;
+      --coke-gray-100: #F4F4F6;
+      --coke-gray-300: #D1D1D6;
+      --coke-gray-500: #8E8E93;
+      --coke-gray-700: #3A3A3C;
+      --coke-gray-900: #1C1C1E;
+      
+      /* Accents & Effects */
+      --glass-bg: rgba(20, 20, 26, 0.65);
+      --glass-border: rgba(255, 255, 255, 0.12);
+      --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      --red-glow: 0 0 40px rgba(228, 30, 43, 0.35);
+      --red-glow-btn: 0 6px 24px rgba(228, 30, 43, 0.5);
+
+      /* Typography */
+      --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+      /* Layout */
+      --container-max: 1240px;
+      --header-height: 80px;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-full: 9999px;
+
+      /* Transitions */
+      --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* --------------------------------------------------------------------------
+       2. RESET & BASE STYLES
+       -------------------------------------------------------------------------- */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--coke-black);
+      color: var(--coke-white);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button, input, select {
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Section Common Spacing */
+    .section {
+      padding: 5rem 0;
+      position: relative;
+    }
+
+    @media (min-width: 992px) {
+      .section {
+        padding: 7.5rem 0;
+      }
+    }
+
+    /* Typography Utilities */
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      background: rgba(228, 30, 43, 0.12);
+      border: 1px solid rgba(228, 30, 43, 0.3);
+      border-radius: var(--radius-full);
+      color: var(--coke-red);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-subtitle {
+      color: var(--coke-gray-300);
+      font-size: 1.125rem;
+      max-width: 650px;
+      margin: 0 auto 3rem auto;
+    }
+
+    .text-gradient {
+      background: linear-gradient(135deg, #FFFFFF 0%, #E41E2B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    /* --------------------------------------------------------------------------
+       3. BUTTONS & INTERACTIVE ELEMENTS
+       -------------------------------------------------------------------------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 1rem 2rem;
+      border-radius: var(--radius-full);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      border: none;
+      transition: all var(--transition-normal);
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--coke-red) 0%, var(--coke-red-dark) 100%);
+      color: var(--coke-white);
+      box-shadow: var(--red-glow-btn);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-primary::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+      transition: left 0.6s ease;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, var(--coke-red-hover) 0%, var(--coke-red) 100%);
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 10px 30px rgba(228, 30, 43, 0.65);
+    }
+
+    .btn-primary:hover::before {
+      left: 100%;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--coke-white);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+
+    .btn-icon {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* --------------------------------------------------------------------------
+       4. NAVIGATION HEADER
+       -------------------------------------------------------------------------- */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-height);
+      z-index: 1000;
+      transition: all var(--transition-normal);
+    }
+
+    .header.scrolled {
+      background: rgba(11, 11, 13, 0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--glass-border);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.35rem;
+      letter-spacing: -0.01em;
+    }
+
+    .logo-badge {
+      background: var(--coke-red);
+      color: var(--coke-white);
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.7rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-menu {
+      display: none;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    @media (min-width: 992px) {
+      .nav-menu {
+        display: flex;
+      }
+    }
+
+    .nav-link {
+      color: var(--coke-gray-300);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color var(--transition-fast);
+    }
+
+    .nav-link:hover {
+      color: var(--coke-white);
+    }
+
+    .mobile-nav-toggle {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      z-index: 1001;
+    }
+
+    @media (min-width: 992px) {
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+
+    .mobile-nav-toggle span {
+      width: 24px;
+      height: 2px;
+      background-color: var(--coke-white);
+      transition: all var(--transition-fast);
+    }
+
+    /* Mobile Menu Drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 280px;
+      height: 100vh;
+      background: var(--coke-black-light);
+      border-left: 1px solid var(--glass-border);
+      padding: 6rem 2rem 2rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      z-index: 999;
+      transition: right var(--transition-normal);
+    }
+
+    .mobile-drawer.active {
+      right: 0;
+    }
+
+    .mobile-drawer .nav-link {
+      font-size: 1.25rem;
+    }
+
+    /* --------------------------------------------------------------------------
+       5. HERO SECTION
+       -------------------------------------------------------------------------- */
+    .hero-section {
+      padding-top: calc(var(--header-height) + 3rem);
+      padding-bottom: 5rem;
+      position: relative;
+      background: radial-gradient(circle at 70% 30%, rgba(228, 30, 43, 0.18) 0%, transparent 60%);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    @media (min-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+      }
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      padding: 0.4rem 1rem;
+      border-radius: var(--radius-full);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-badge .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--coke-red);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--coke-red);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(228, 30, 43, 0.7); }
+      70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(228, 30, 43, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(228, 30, 43, 0); }
+    }
+
+    .hero-headline {
+      font-family: var(--font-heading);
+      font-size: clamp(2.5rem, 5vw, 4.25rem);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-subtext {
+      font-size: 1.15rem;
+      color: var(--coke-gray-300);
+      margin-bottom: 2.25rem;
+      max-width: 540px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-trust-bar {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .avatars-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 2px solid var(--coke-black);
+      margin-left: -10px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .avatar:first-child {
+      margin-left: 0;
+    }
+
+    .trust-text {
+      font-size: 0.875rem;
+      color: var(--coke-gray-300);
+    }
+
+    .trust-text strong {
+      color: var(--coke-white);
+      display: block;
+      font-size: 0.95rem;
+    }
+
+    /* Hero Visual Box */
+    .hero-visual-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-image-card {
+      position: relative;
+      width: 100%;
+      max-width: 520px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 50px rgba(228, 30, 43, 0.25);
+      border: 1px solid var(--glass-border);
+      transition: transform var(--transition-slow);
+    }
+
+    .hero-image-card:hover {
+      transform: translateY(-8px) scale(1.01);
+    }
+
+    .hero-image-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .floating-badge {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      background: var(--glass-bg);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--glass-border);
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      box-shadow: var(--glass-shadow);
+    }
+
+    .floating-badge-icon {
+      width: 42px;
+      height: 42px;
+      background: rgba(228, 30, 43, 0.2);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--coke-red);
+      font-size: 1.25rem;
+    }
+
+    .floating-badge-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .floating-badge-subtitle {
+      font-size: 0.75rem;
+      color: var(--coke-gray-300);
+    }
+
+    /* --------------------------------------------------------------------------
+       6. BENEFITS SECTION
+       -------------------------------------------------------------------------- */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .benefits-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .benefit-card {
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 2rem 1.5rem;
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .benefit-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: transparent;
+      transition: background var(--transition-fast);
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(228, 30, 43, 0.4);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .benefit-card:hover::before {
+      background: var(--coke-red);
+    }
+
+    .benefit-icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: var(--coke-red);
+      margin-bottom: 1.25rem;
+    }
+
+    .benefit-title {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .benefit-desc {
+      color: var(--coke-gray-300);
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+
+    /* Interactive Chill Meter Widget */
+    .chill-meter-wrapper {
+      margin-top: 4rem;
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .chill-slider-container {
+      margin: 2rem 0 1.5rem 0;
+    }
+
+    .chill-slider {
+      width: 100%;
+      -webkit-appearance: none;
+      appearance: none;
+      height: 10px;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #00C6FF 0%, #0072FF 50%, var(--coke-red) 100%);
+      outline: none;
+      cursor: pointer;
+    }
+
+    .chill-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--coke-white);
+      border: 3px solid var(--coke-red);
+      box-shadow: 0 0 15px rgba(228, 30, 43, 0.8);
+      cursor: pointer;
+    }
+
+    .chill-status {
+      display: inline-block;
+      padding: 0.6rem 1.5rem;
+      border-radius: var(--radius-full);
+      background: rgba(228, 30, 43, 0.15);
+      border: 1px solid rgba(228, 30, 43, 0.4);
+      color: var(--coke-white);
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.1rem;
+    }
+
+    /* --------------------------------------------------------------------------
+       7. LIFESTYLE GALLERY SECTION
+       -------------------------------------------------------------------------- */
+    .lifestyle-section {
+      background: linear-gradient(180deg, var(--coke-black) 0%, var(--coke-black-light) 50%, var(--coke-black) 100%);
+    }
+
+    .lifestyle-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .lifestyle-card img {
+      width: 100%;
+      max-height: 550px;
+      object-fit: cover;
+    }
+
+    .lifestyle-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 3rem 2rem 2rem 2rem;
+      background: linear-gradient(0deg, rgba(11, 11, 13, 0.95) 0%, rgba(11, 11, 13, 0.6) 60%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .lifestyle-title {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+    }
+
+    .lifestyle-text {
+      color: var(--coke-gray-300);
+      max-width: 600px;
+    }
+
+    /* --------------------------------------------------------------------------
+       8. SOCIAL PROOF & TESTIMONIALS SECTION
+       -------------------------------------------------------------------------- */
+    .reviews-summary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 3.5rem;
+      flex-wrap: wrap;
+    }
+
+    .summary-box {
+      text-align: center;
+      padding: 1rem 2rem;
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+    }
+
+    .summary-score {
+      font-family: var(--font-heading);
+      font-weight: 900;
+      font-size: 2.75rem;
+      color: var(--coke-white);
+      line-height: 1;
+    }
+
+    .stars-row {
+      color: #FFD700;
+      font-size: 1.2rem;
+      margin: 0.4rem 0;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .testimonial-card {
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform var(--transition-fast);
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .testimonial-text {
+      font-style: italic;
+      color: var(--coke-gray-100);
+      font-size: 0.98rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .user-profile {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .user-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--coke-gray-700);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: var(--coke-white);
+    }
+
+    .user-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .user-meta {
+      font-size: 0.8rem;
+      color: var(--coke-gray-500);
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .verified-icon {
+      color: #34C759;
+    }
+
+    /* --------------------------------------------------------------------------
+       9. PROMOTIONAL OFFER SECTION & COUNTDOWN
+       -------------------------------------------------------------------------- */
+    .offer-section {
+      position: relative;
+      background: radial-gradient(circle at 50% 50%, rgba(228, 30, 43, 0.22) 0%, var(--coke-black) 70%);
+    }
+
+    .offer-card {
+      background: var(--coke-black-card);
+      border: 2px solid rgba(228, 30, 43, 0.4);
+      border-radius: var(--radius-lg);
+      padding: 3rem 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      align-items: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), var(--red-glow);
+    }
+
+    @media (min-width: 992px) {
+      .offer-card {
+        grid-template-columns: 1.1fr 0.9fr;
+        padding: 4rem 3rem;
+      }
+    }
+
+    .countdown-box {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
+      margin: 1.5rem 0 2rem 0;
+    }
+
+    .timer-unit {
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 0.75rem 1rem;
+      min-width: 70px;
+      text-align: center;
+    }
+
+    .timer-value {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--coke-red);
+      line-height: 1;
+    }
+
+    .timer-label {
+      font-size: 0.75rem;
+      color: var(--coke-gray-500);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .offer-image-box {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+    }
+
+    .offer-image-box img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    /* --------------------------------------------------------------------------
+       10. STORE LOCATOR WIDGET
+       -------------------------------------------------------------------------- */
+    .store-locator {
+      margin-top: 3.5rem;
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+    }
+
+    .store-search-bar {
+      display: flex;
+      gap: 0.75rem;
+      max-width: 560px;
+      margin: 1.5rem auto 2rem auto;
+    }
+
+    .store-input {
+      flex: 1;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--glass-border);
+      padding: 0.85rem 1.25rem;
+      border-radius: var(--radius-full);
+      color: var(--coke-white);
+      outline: none;
+      transition: border-color var(--transition-fast);
+    }
+
+    .store-input:focus {
+      border-color: var(--coke-red);
+    }
+
+    .store-results-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .store-results-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .store-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      text-align: left;
+    }
+
+    .store-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .store-stock {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      color: #34C759;
+      font-weight: 600;
+    }
+
+    /* --------------------------------------------------------------------------
+       11. FAQ ACCORDION SECTION
+       -------------------------------------------------------------------------- */
+    .faq-list {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faq-item {
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: border-color var(--transition-fast);
+    }
+
+    .faq-item.active {
+      border-color: rgba(228, 30, 43, 0.5);
+    }
+
+    .faq-button {
+      width: 100%;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+      border: none;
+      color: var(--coke-white);
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .faq-icon {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform var(--transition-normal);
+      color: var(--coke-red);
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height var(--transition-normal);
+      padding: 0 1.5rem;
+      color: var(--coke-gray-300);
+    }
+
+    .faq-answer-inner {
+      padding-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    /* --------------------------------------------------------------------------
+       12. FINAL CTA SECTION
+       -------------------------------------------------------------------------- */
+    .cta-section {
+      text-align: center;
+      background: linear-gradient(180deg, var(--coke-black) 0%, rgba(228, 30, 43, 0.15) 100%);
+      padding: 6rem 0;
+    }
+
+    .cta-box {
+      background: var(--coke-black-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      padding: 3.5rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    }
+
+    /* --------------------------------------------------------------------------
+       13. FOOTER
+       -------------------------------------------------------------------------- */
+    .footer {
+      background: var(--coke-black-light);
+      border-top: 1px solid var(--glass-border);
+      padding: 4rem 0 2rem 0;
+      color: var(--coke-gray-500);
+      font-size: 0.9rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: 768px) {
+      .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+
+    .footer-brand p {
+      margin-top: 1rem;
+      color: var(--coke-gray-300);
+      max-width: 400px;
+    }
+
+    .footer-title {
+      color: var(--coke-white);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--coke-white);
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--coke-white);
+      transition: all var(--transition-fast);
+    }
+
+    .social-btn:hover {
+      background: var(--coke-red);
+      border-color: var(--coke-red);
+      transform: translateY(-2px);
+    }
+
+    .footer-bottom {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    /* --------------------------------------------------------------------------
+       14. MODAL & TOAST NOTIFICATIONS
+       -------------------------------------------------------------------------- */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(12px);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      visibility: hidden;
+      transition: all var(--transition-normal);
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-card {
+      background: var(--coke-black-light);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      width: 100%;
+      max-width: 500px;
+      position: relative;
+      transform: scale(0.9);
+      transition: transform var(--transition-normal);
+    }
+
+    .modal-overlay.active .modal-card {
+      transform: scale(1);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      background: transparent;
+      border: none;
+      color: var(--coke-gray-500);
+      font-size: 1.5rem;
+      cursor: pointer;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    .modal-close:hover {
+      color: var(--coke-white);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .barcode-box {
+      background: #FFFFFF;
+      padding: 1.5rem;
+      border-radius: var(--radius-md);
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+
+    .barcode-graphic {
+      height: 60px;
+      background: repeating-linear-gradient(
+        90deg,
+        #000 0,
+        #000 2px,
+        #fff 2px,
+        #fff 4px,
+        #000 4px,
+        #000 7px
+      );
+      margin-bottom: 0.5rem;
+    }
+
+    .code-text {
+      color: #000;
+      font-family: monospace;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+    }
+
+    /* Toast Alert */
+    .toast-notification {
+      position: fixed;
+      bottom: 2rem;
+      left: 2rem;
+      background: rgba(20, 20, 26, 0.92);
+      border: 1px solid var(--glass-border);
+      border-left: 4px solid var(--coke-red);
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      z-index: 1500;
+      transform: translateY(120%);
+      transition: transform var(--transition-normal);
+      backdrop-filter: blur(12px);
+    }
+
+    .toast-notification.active {
+      transform: translateY(0);
+    }
+
+    .toast-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--coke-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER / NAVIGATION BAR
+       ========================================================================= -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo" aria-label="Coca-Cola Zero Sugar Home">
+        <span style="color: var(--coke-white);">Coca-Cola</span>
+        <span class="logo-badge">Zero Sugar</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#benefits" class="nav-link">Why Zero</a></li>
+          <li><a href="#lifestyle" class="nav-link">Experience</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#offer" class="nav-link">Special Offer</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button class="btn btn-primary claim-coupon-trigger" style="padding: 0.65rem 1.4rem; font-size: 0.9rem;">
+          Get Sample
+        </button>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#benefits" class="nav-link">Why Zero</a>
+    <a href="#lifestyle" class="nav-link">Experience</a>
+    <a href="#reviews" class="nav-link">Reviews</a>
+    <a href="#offer" class="nav-link">Special Offer</a>
+    <a href="#faq" class="nav-link">FAQ</a>
+    <button class="btn btn-primary claim-coupon-trigger" style="margin-top: 1rem;">
+      Try Coca-Cola Zero Today
+    </button>
+  </div>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span>Exclusive Meta Ads Offer • Free Sample Voucher</span>
+            </div>
+            
+            <h1 class="hero-headline">
+              Real Taste. <br />
+              <span class="text-gradient">Zero Sugar.</span><br />
+              Best Served Ice Cold.
+            </h1>
+            
+            <p class="hero-subtext">
+              Uncompromised iconic Coca-Cola flavor with 0 calories and 0 sugar. Experience the refreshingly crisp carbonation crafted for maximum satisfaction.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary claim-coupon-trigger" id="heroCtaBtn">
+                <span>Try Coca-Cola Zero Today</span>
+                <span class="btn-icon">→</span>
+              </button>
+              
+              <a href="#benefits" class="btn btn-secondary">
+                <span>Explore Chill Experience</span>
+              </a>
+            </div>
+
+            <div class="hero-trust-bar">
+              <div class="avatars-group">
+                <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80');"></div>
+                <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80');"></div>
+                <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80');"></div>
+              </div>
+              <div class="trust-text">
+                <strong>4.9 / 5.0 Star Rating</strong>
+                <span>Over 1,250,000 samples claimed this month</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual-wrapper">
+            <div class="hero-image-card">
+              <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=1200&q=80" alt="Ice cold Coca-Cola Zero Sugar can covered in water frost droplets" width="520" height="390" />
+              
+              <div class="floating-badge">
+                <div class="floating-badge-icon">❄️</div>
+                <div>
+                  <div class="floating-badge-title">Peak Refreshment</div>
+                  <div class="floating-badge-subtitle">Served optimal at 37°F</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         BENEFITS SECTION
+         ========================================================================= -->
+    <section class="section" id="benefits">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Uncompromised Refreshment</span>
+          <h2 class="section-title">Why You'll Love Coca-Cola Zero Sugar</h2>
+          <p class="section-subtitle">
+            Engineered to deliver the iconic taste you love, without any of the sugar or calories.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">🚫</div>
+            <h3 class="benefit-title">Zero Sugar & Calories</h3>
+            <p class="benefit-desc">
+              Enjoy 100% of the signature Coca-Cola flavor profile with 0 grams of sugar and zero guilt.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">✨</div>
+            <h3 class="benefit-title">Great Original Taste</h3>
+            <p class="benefit-desc">
+              Formulated with our proprietary blend of ingredients that captures authentic classic flavor.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">🧊</div>
+            <h3 class="benefit-title">Crisp Ice-Cold Fizz</h3>
+            <p class="benefit-desc">
+              Precision carbonation creates an irresistible burst of refreshing micro-bubbles with every sip.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">📍</div>
+            <h3 class="benefit-title">Available Everywhere</h3>
+            <p class="benefit-desc">
+              Find Coca-Cola Zero Sugar at your favorite grocery store, convenience market, or restaurant.
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Chill Meter Widget -->
+        <div class="chill-meter-wrapper">
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem;">
+            🌡️ Interactive Serving Temperature Test
+          </h3>
+          <p style="color: var(--coke-gray-300); font-size: 0.95rem;">
+            Drag the slider to discover the exact temperature science for ultimate Coca-Cola Zero refreshment!
+          </p>
+
+          <div class="chill-slider-container">
+            <input type="range" id="chillSlider" class="chill-slider" min="32" max="55" value="37" aria-label="Serving Temperature Slider" />
+          </div>
+
+          <div>
+            <span class="chill-status" id="chillStatus">❄️ PERFECT ICE-COLD SERVE!</span>
+            <div style="margin-top: 0.75rem; font-weight: 700; font-size: 1.1rem; color: var(--coke-gray-300);" id="chillDegrees">
+              37°F (3°C)
+            </div>
+          </div>
+        </div>
+
+        <!-- Store Locator Zip Search -->
+        <div class="store-locator text-center">
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem;">
+            🛒 Find Coca-Cola Zero Sugar Near You
+          </h3>
+          <p style="color: var(--coke-gray-300); font-size: 0.95rem;">
+            Enter your zip code to instantly check stock availability at nearby retailers.
+          </p>
+
+          <div class="store-search-bar">
+            <input type="text" id="storeZipInput" class="store-input" placeholder="Enter Zip Code or City (e.g. 90210, Austin)" aria-label="Zip Code Input" />
+            <button class="btn btn-primary" id="storeSearchBtn" style="padding: 0.85rem 1.75rem;">
+              Search Retailers
+            </button>
+          </div>
+
+          <div class="store-results-grid" id="storeResultsGrid">
+            <div class="store-item">
+              <div class="store-name">Walmart Supercenter</div>
+              <div style="font-size: 0.85rem; color: var(--coke-gray-300); margin-bottom: 0.4rem;">📍 0.8 miles away</div>
+              <div class="store-stock">✓ In Stock (12-Packs & Bottles)</div>
+            </div>
+            <div class="store-item">
+              <div class="store-name">Target Center</div>
+              <div style="font-size: 0.85rem; color: var(--coke-gray-300); margin-bottom: 0.4rem;">📍 1.4 miles away</div>
+              <div class="store-stock">✓ In Stock (Zero Sugar Cans)</div>
+            </div>
+            <div class="store-item">
+              <div class="store-name">7-Eleven Convenience</div>
+              <div style="font-size: 0.85rem; color: var(--coke-gray-300); margin-bottom: 0.4rem;">📍 0.4 miles away</div>
+              <div class="store-stock">✓ In Stock (Ice Cold Singles)</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         LIFESTYLE GALLERY SECTION
+         ========================================================================= -->
+    <section class="section lifestyle-section" id="lifestyle">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Everyday Moments</span>
+          <h2 class="section-title">Fuel Your Best Moments</h2>
+          <p class="section-subtitle">
+            Whether you're celebrating with friends, working out, or relaxing at home, Coca-Cola Zero Sugar brings the vibe.
+          </p>
+        </div>
+
+        <div class="lifestyle-card">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80" alt="Group of friends laughing and enjoying ice cold beverages outdoors" width="1200" height="550" />
+          
+          <div class="lifestyle-overlay">
+            <h3 class="lifestyle-title">Taste the Feeling of Zero Limits</h3>
+            <p class="lifestyle-text">
+              "Switching to Coca-Cola Zero Sugar was the best decision for my lifestyle. I get all the taste I grew up with without adding unnecessary sugar to my day."
+            </p>
+            <div>
+              <button class="btn btn-primary claim-coupon-trigger" style="margin-top: 0.5rem; padding: 0.75rem 1.5rem; font-size: 0.9rem;">
+                Claim Your Free Sample Voucher
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SOCIAL PROOF & REVIEWS SECTION
+         ========================================================================= -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Loved By Millions</span>
+          <h2 class="section-title">Real Feedback From Real Drinkers</h2>
+          <p class="section-subtitle">
+            See why over 45,000+ Meta Ads respondents rate Coca-Cola Zero Sugar as their #1 zero-sugar beverage.
+          </p>
+        </div>
+
+        <div class="reviews-summary">
+          <div class="summary-box">
+            <div class="summary-score">4.9</div>
+            <div class="stars-row">★★★★★</div>
+            <div style="font-size: 0.85rem; color: var(--coke-gray-300);">Based on 45,210 Meta Ratings</div>
+          </div>
+
+          <div class="summary-box">
+            <div class="summary-score" style="color: var(--coke-red);">98%</div>
+            <div style="font-weight: 700; margin-top: 0.2rem;">Flavor Match Rate</div>
+            <div style="font-size: 0.85rem; color: var(--coke-gray-300);">Tastes identical to Classic Coke</div>
+          </div>
+
+          <div class="summary-box">
+            <div class="summary-score">100%</div>
+            <div style="font-weight: 700; margin-top: 0.2rem;">Zero Guilt</div>
+            <div style="font-size: 0.85rem; color: var(--coke-gray-300);">0 Calories & 0 Sugar</div>
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Honestly, I couldn't tell the difference! I was skeptical at first from a Facebook ad, but it has the exact same crisp bite and sweetness without any sugar crash."
+            </p>
+            <div class="user-profile">
+              <div class="user-avatar">JD</div>
+              <div>
+                <div class="user-name">Jason D.</div>
+                <div class="user-meta"><span class="verified-icon">✓</span> Verified Meta Drinker</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "As a fitness enthusiast, finding a zero-sugar drink that doesn't taste like artificial chemical sweetener was impossible until Coca-Cola Zero. Ice cold, it's unbeatable."
+            </p>
+            <div class="user-profile">
+              <div class="user-avatar" style="background-color: var(--coke-red);">AM</div>
+              <div>
+                <div class="user-name">Amanda M.</div>
+                <div class="user-meta"><span class="verified-icon">✓</span> Verified Meta Drinker</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Claimed the digital coupon through Instagram and redeemed it at Target in 5 minutes! Super easy and my whole family loves it."
+            </p>
+            <div class="user-profile">
+              <div class="user-avatar">RL</div>
+              <div>
+                <div class="user-name">Robert L.</div>
+                <div class="user-meta"><span class="verified-icon">✓</span> Verified Meta Drinker</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PROMOTIONAL OFFER SECTION & COUNTDOWN
+         ========================================================================= -->
+    <section class="section offer-section" id="offer">
+      <div class="container">
+        <div class="offer-card">
+          <div class="offer-content">
+            <span class="section-tag" style="background: rgba(228, 30, 43, 0.25);">🔥 Limited Time Meta Campaign Offer</span>
+            
+            <h2 style="font-family: var(--font-heading); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900; line-height: 1.15; margin: 1rem 0;">
+              Get Your Digital Voucher: <span class="text-gradient">Buy 1 Get 1 Free</span>
+            </h2>
+            
+            <p style="color: var(--coke-gray-300); font-size: 1.05rem;">
+              For a limited time, claim an instant barcode coupon sent directly to your email or phone for any retailer nationwide.
+            </p>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-box">
+              <div class="timer-unit">
+                <div class="timer-value" id="timerHours">14</div>
+                <div class="timer-label">Hours</div>
+              </div>
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--coke-gray-500);">:</div>
+              <div class="timer-unit">
+                <div class="timer-value" id="timerMinutes">32</div>
+                <div class="timer-label">Mins</div>
+              </div>
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--coke-gray-500);">:</div>
+              <div class="timer-unit">
+                <div class="timer-value" id="timerSeconds">45</div>
+                <div class="timer-label">Secs</div>
+              </div>
+            </div>
+
+            <button class="btn btn-primary claim-coupon-trigger" style="width: 100%; max-width: 400px; padding: 1.15rem 2rem; font-size: 1.1rem;">
+              ⚡ Claim Your Free Voucher Now
+            </button>
+            
+            <div style="margin-top: 0.75rem; font-size: 0.8rem; color: var(--coke-gray-500);">
+              🔒 No credit card required. Instant barcode delivery.
+            </div>
+          </div>
+
+          <div class="offer-image-box">
+            <img src="https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=1200&q=80" alt="Ice cold Coca-Cola bottle with condensation droplets" width="480" height="360" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FAQ ACCORDION SECTION
+         ========================================================================= -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Everything you need to know about Coca-Cola Zero Sugar.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-button" aria-expanded="false">
+              <span>Does Coca-Cola Zero Sugar really have zero calories?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Yes! Coca-Cola Zero Sugar contains 0 calories and 0 grams of sugar per serving, making it a perfect choice for individuals managing their calorie intake.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" aria-expanded="false">
+              <span>How does Coca-Cola Zero Sugar taste compared to classic Coke?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Coca-Cola Zero Sugar was specifically crafted to mirror the exact taste profile, crisp bite, and refreshing finish of original Coca-Cola, but without any sugar.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" aria-expanded="false">
+              <span>How do I redeem my digital sample voucher?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Simply click "Try Coca-Cola Zero Today" to generate your unique barcode voucher. Show the digital barcode at the checkout of any major retailer (Walmart, Target, Kroger, 7-Eleven, etc.) to redeem!
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" aria-expanded="false">
+              <span>Is there caffeine in Coca-Cola Zero Sugar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Standard Coca-Cola Zero Sugar contains approximately 34mg of caffeine per 12 oz can, similar to original Coca-Cola. Caffeine-free versions are also available at select locations.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FINAL CALL TO ACTION SECTION
+         ========================================================================= -->
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2 style="font-family: var(--font-heading); font-size: clamp(2.25rem, 4vw, 3.5rem); font-weight: 900; margin-bottom: 1rem;">
+            Ready to Taste the <span class="text-gradient">Zero Sugar Magic?</span>
+          </h2>
+          <p style="color: var(--coke-gray-300); font-size: 1.15rem; max-width: 600px; margin: 0 auto 2.5rem auto;">
+            Join over 1,250,000+ people who have already claimed their free Coca-Cola Zero Sugar sample voucher this month.
+          </p>
+          <button class="btn btn-primary claim-coupon-trigger" style="padding: 1.25rem 2.5rem; font-size: 1.15rem;">
+            <span>Try Coca-Cola Zero Today</span>
+            <span class="btn-icon">→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span style="color: var(--coke-white);">Coca-Cola</span>
+            <span class="logo-badge">Zero Sugar</span>
+          </div>
+          <p>
+            Real Taste. Zero Sugar. Best served ice cold for peak carbonated refreshment anywhere, anytime.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+            <a href="#" class="social-btn" aria-label="TikTok">TK</a>
+            <a href="#" class="social-btn" aria-label="Facebook">FB</a>
+            <a href="#" class="social-btn" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#benefits">Why Zero</a></li>
+            <li><a href="#lifestyle">Experience</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li>
+            <li><a href="#offer">Meta Promo Offer</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Legal & Privacy</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Nutritional Facts</a></li>
+            <li><a href="#">Meta Ads Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 The Coca-Cola Company. All rights reserved. Fictional promotional campaign for Meta Ads demonstration.
+        </div>
+        <div style="font-size: 0.8rem; color: var(--coke-gray-500);">
+          Designed for maximum conversion and speed.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       COUPON CLAIM MODAL
+       ========================================================================= -->
+  <div class="modal-overlay" id="couponModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close Modal">&times;</button>
+      
+      <!-- Form State -->
+      <div id="modalFormState">
+        <div class="text-center" style="margin-bottom: 1.5rem;">
+          <span class="section-tag" style="font-size: 0.75rem;">Instant Sample Voucher</span>
+          <h3 id="modalTitle" style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 800; margin-top: 0.5rem;">
+            Claim Your Free Coca-Cola Zero
+          </h3>
+          <p style="color: var(--coke-gray-300); font-size: 0.9rem;">
+            Enter your email to instantly receive a digital barcode voucher valid at all major retailers.
+          </p>
+        </div>
+
+        <form id="couponForm">
+          <div style="margin-bottom: 1.25rem;">
+            <label for="userEmailInput" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--coke-gray-300);">
+              Email Address
+            </label>
+            <input type="email" id="userEmailInput" required placeholder="your.name@example.com" class="store-input" style="width: 100%; border-radius: var(--radius-md);" />
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
+            Generate Digital Barcode →
+          </button>
+        </form>
+
+        <div style="margin-top: 1rem; text-align: center; font-size: 0.75rem; color: var(--coke-gray-500);">
+          By submitting, you agree to receive promotional updates. You can unsubscribe anytime.
+        </div>
+      </div>
+
+      <!-- Success State -->
+      <div id="modalSuccessState" style="display: none; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 0.5rem;">🎉</div>
+        <h3 style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 800; color: var(--coke-white);">
+          Voucher Generated!
+        </h3>
+        <p style="color: var(--coke-gray-300); font-size: 0.9rem;">
+          Show this digital barcode at any checkout counter for your free Coca-Cola Zero Sugar:
+        </p>
+
+        <div class="barcode-box">
+          <div class="barcode-graphic"></div>
+          <div class="code-text" id="generatedCode">ZERO-COKE-883921</div>
+        </div>
+
+        <button class="btn btn-primary" id="copyCodeBtn" style="width: 100%; padding: 0.85rem;">
+          Copy Digital Voucher Code
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       REAL-TIME SOCIAL PROOF TOAST
+       ========================================================================= -->
+  <div class="toast-notification" id="socialProofToast">
+    <div class="toast-avatar">🥤</div>
+    <div style="font-size: 0.85rem; color: var(--coke-white);" id="toastMessage">
+      <strong>Sarah M.</strong> from Austin, TX just claimed a Free Sample Voucher!
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       INLINE INTERACTIVE JAVASCRIPT LOGIC
+       ========================================================================= -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initNavbar();
+      initCountdown();
+      initChillMeter();
+      initStoreLocator();
+      initFaqAccordion();
+      initCouponModal();
+      initSocialProofToast();
+      initScrollAnimations();
+    });
+
+    /* 1. NAVBAR & MOBILE DRAWER LOGIC */
+    function initNavbar() {
+      const header = document.getElementById('header');
+      const toggleBtn = document.getElementById('mobileNavToggle');
+      const drawer = document.getElementById('mobileDrawer');
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+
+      if (toggleBtn && drawer) {
+        toggleBtn.addEventListener('click', () => {
+          drawer.classList.toggle('active');
+        });
+
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            drawer.classList.remove('active');
+          });
+        });
+      }
+    }
+
+    /* 2. COUNTDOWN TIMER (24-Hour Urgency Counter) */
+    function initCountdown() {
+      const hoursEl = document.getElementById('timerHours');
+      const minutesEl = document.getElementById('timerMinutes');
+      const secondsEl = document.getElementById('timerSeconds');
+
+      if (!hoursEl || !minutesEl || !secondsEl) return;
+
+      let totalSeconds = 14 * 3600 + 32 * 60 + 45;
+
+      function updateTimer() {
+        if (totalSeconds <= 0) {
+          totalSeconds = 24 * 3600;
+        }
+
+        const h = Math.floor(totalSeconds / 3600);
+        const m = Math.floor((totalSeconds % 3600) / 60);
+        const s = totalSeconds % 60;
+
+        hoursEl.textContent = String(h).padStart(2, '0');
+        minutesEl.textContent = String(m).padStart(2, '0');
+        secondsEl.textContent = String(s).padStart(2, '0');
+
+        totalSeconds--;
+      }
+
+      updateTimer();
+      setInterval(updateTimer, 1000);
+    }
+
+    /* 3. INTERACTIVE CHILL METER SLIDER */
+    function initChillMeter() {
+      const slider = document.getElementById('chillSlider');
+      const statusEl = document.getElementById('chillStatus');
+      const degreesEl = document.getElementById('chillDegrees');
+
+      if (!slider || !statusEl || !degreesEl) return;
+
+      slider.addEventListener('input', (e) => {
+        const temp = parseInt(e.target.value, 10);
+        degreesEl.textContent = `${temp}°F (${Math.round((temp - 32) * 5 / 9)}°C)`;
+
+        if (temp <= 37) {
+          statusEl.textContent = '❄️ PERFECT ICE-COLD SERVE!';
+          statusEl.style.background = 'rgba(228, 30, 43, 0.25)';
+          statusEl.style.borderColor = 'var(--coke-red)';
+        } else if (temp <= 42) {
+          statusEl.textContent = '🥤 Crisp & Cool';
+          statusEl.style.background = 'rgba(0, 114, 255, 0.2)';
+          statusEl.style.borderColor = '#0072FF';
+        } else {
+          statusEl.textContent = '🌡️ Needs More Chill!';
+          statusEl.style.background = 'rgba(255, 153, 0, 0.2)';
+          statusEl.style.borderColor = '#FF9900';
+        }
+      });
+    }
+
+    /* 4. STORE LOCATOR ZIP SEARCH SIMULATION */
+    function initStoreLocator() {
+      const searchBtn = document.getElementById('storeSearchBtn');
+      const inputEl = document.getElementById('storeZipInput');
+      const resultsContainer = document.getElementById('storeResultsGrid');
+
+      if (!searchBtn || !inputEl || !resultsContainer) return;
+
+      const mockStores = [
+        { name: 'Walmart Supercenter', dist: '0.8 miles away', status: 'In Stock (12-Packs & Bottles)' },
+        { name: 'Target Center', dist: '1.4 miles away', status: 'In Stock (Zero Sugar Cans)' },
+        { name: 'Kroger Fresh Market', dist: '2.1 miles away', status: 'In Stock (2-For-1 Promo Ready)' },
+        { name: '7-Eleven Convenience', dist: '0.4 miles away', status: 'In Stock (Cold Singles)' }
+      ];
+
+      function performSearch() {
+        const query = inputEl.value.trim();
+        if (!query) {
+          alert('Please enter a zip code or city.');
+          return;
+        }
+
+        resultsContainer.innerHTML = mockStores.map(store => `
+          <div class="store-item">
+            <div class="store-name">${store.name}</div>
+            <div style="font-size: 0.85rem; color: var(--coke-gray-300); margin-bottom: 0.4rem;">📍 ${store.dist}</div>
+            <div class="store-stock">✓ ${store.status}</div>
+          </div>
+        `).join('');
+
+        if (window.fbq) {
+          window.fbq('trackCustom', 'StoreLocatorSearch', { search_zip: query });
+        }
+      }
+
+      searchBtn.addEventListener('click', performSearch);
+      inputEl.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') performSearch();
+      });
+    }
+
+    /* 5. ACCORDION FAQ LOGIC */
+    function initFaqAccordion() {
+      const faqItems = document.querySelectorAll('.faq-item');
+
+      faqItems.forEach(item => {
+        const btn = item.querySelector('.faq-button');
+        const answer = item.querySelector('.faq-answer');
+
+        btn.addEventListener('click', () => {
+          const isActive = item.classList.contains('active');
+
+          faqItems.forEach(otherItem => {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-answer').style.maxHeight = null;
+          });
+
+          if (!isActive) {
+            item.classList.add('active');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+          }
+        });
+      });
+    }
+
+    /* 6. COUPON CLAIM MODAL & META PIXEL TRACKING */
+    function initCouponModal() {
+      const modal = document.getElementById('couponModal');
+      const closeBtn = document.getElementById('modalCloseBtn');
+      const triggerBtns = document.querySelectorAll('.claim-coupon-trigger');
+      const couponForm = document.getElementById('couponForm');
+      const formState = document.getElementById('modalFormState');
+      const successState = document.getElementById('modalSuccessState');
+      const generatedCodeEl = document.getElementById('generatedCode');
+      const copyBtn = document.getElementById('copyCodeBtn');
+
+      if (!modal) return;
+
+      function openModal() {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        if (window.fbq) {
+          window.fbq('track', 'ViewContent', { content_name: 'Zero Sugar Coupon Modal' });
+        }
+      }
+
+      function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+
+      triggerBtns.forEach(btn => btn.addEventListener('click', openModal));
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      if (couponForm) {
+        couponForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          
+          const emailInput = document.getElementById('userEmailInput').value;
+          const randomCode = 'ZERO-' + Math.floor(100000 + Math.random() * 900000);
+          
+          generatedCodeEl.textContent = randomCode;
+          formState.style.display = 'none';
+          successState.style.display = 'block';
+
+          if (window.fbq) {
+            window.fbq('track', 'Lead', {
+              content_name: 'Coca-Cola Zero Sample Coupon',
+              user_email: emailInput
+            });
+          }
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          const code = generatedCodeEl.textContent;
+          navigator.clipboard.writeText(code).then(() => {
+            copyBtn.textContent = '✓ Copied to Clipboard!';
+            setTimeout(() => copyBtn.textContent = 'Copy Digital Voucher Code', 2500);
+          });
+        });
+      }
+    }
+
+    /* 7. REAL-TIME SOCIAL PROOF TOAST */
+    function initSocialProofToast() {
+      const toast = document.getElementById('socialProofToast');
+      const messageEl = document.getElementById('toastMessage');
+
+      if (!toast || !messageEl) return;
+
+      const mockActivities = [
+        { name: 'Sarah M.', city: 'Austin, TX', action: 'just claimed a Free Sample Voucher!' },
+        { name: 'David K.', city: 'Chicago, IL', action: 'redeemed 50% off a 12-pack!' },
+        { name: 'Jessica T.', city: 'Miami, FL', action: 'verified the Perfect Taste Guarantee!' },
+        { name: 'Marcus L.', city: 'Denver, CO', action: 'found 2-for-1 Coke Zero nearby!' }
+      ];
+
+      let index = 0;
+
+      function showNextToast() {
+        const item = mockActivities[index];
+        messageEl.innerHTML = `<strong>${item.name}</strong> from ${item.city} ${item.action}`;
+        toast.classList.add('active');
+
+        setTimeout(() => {
+          toast.classList.remove('active');
+        }, 4500);
+
+        index = (index + 1) % mockActivities.length;
+      }
+
+      setTimeout(showNextToast, 4000);
+      setInterval(showNextToast, 12000);
+    }
+
+    /* 8. SCROLL REVEAL ANIMATIONS */
+    function initScrollAnimations() {
+      const observerOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.benefit-card, .testimonial-card, .section-title, .offer-card').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+        observer.observe(el);
+      });
+    }
+  </script>
+</body>
+</html>
